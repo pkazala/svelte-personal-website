@@ -1,6 +1,6 @@
-<div class="h-fit my-4 text-center max-w-7xl m-auto divide-y mt-10">
-	<h1 class="text-2xl mb-3 font-bold font-mono">Projects</h1>
-	<div class="grid md:grid-cols-2 grid-cols-1 my-5 p-3">
+<div class="h-fit my-4 text-center max-w-7xl m-auto divide-y mt-16">
+	<h1 class="text-2xl mb-3 font-bold font-mono dark:text-gray-100 text-gray-600">Projects</h1>
+	<div class="grid md:grid-cols-2 grid-cols-1 my-5 p-3 items-center">
 		<div class="text-3xl sm:p-3 sm:pr-5">
 			Lorem Ipsum is simply dummy cock of the printing and typesetting industry. Lorem Ipsum has
 			been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
@@ -12,7 +12,7 @@
 			<img src="src/Assets/final_gif.gif" alt="pimpaczek" class="h-content" />
 		</div>
 	</div>
-	<div class="grid md:grid-cols-2 grid-cols-1 my-5 p-3">
+	<div class="grid md:grid-cols-2 grid-cols-1 my-5 p-3 items-center">
 		<div class="mockup-window border dark:bg-gray-200 bg-base-300 mt-4 md:max-h-80 lg:max-h-fit">
 			<img src="src/Assets/final_gif.gif" alt="pimpaczek" class="h-content" />
 		</div>
