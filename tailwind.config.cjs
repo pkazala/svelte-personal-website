@@ -18,6 +18,19 @@ module.exports = {
         'dark-linked-h': "url('src/Assets/SVG/linked4.svg')",
       }
     },
+    screens: {
+      'sm': '640px',
+
+      'md': '768px',
+
+      'mine': '900px',
+
+      'lg': '1024px',
+
+      'xl': '1280px',
+
+      '2xl': '1536px',
+    },
   },
   plugins: [require("daisyui")],
 }

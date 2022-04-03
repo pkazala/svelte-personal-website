@@ -1,10 +1,10 @@
 <div class="h-fit my-5 text-center max-w-7xl m-auto divide-y">
-    <h1 class="text-2xl mb-3 font-bold font-mono dark:text-gray-100 text-gray-600">My technologies</h1>
+    <h1 class="text-2xl mb-3 font-bold font-mono dark:text-gray-100 text-gray-600">Technologies</h1>
     <div class="grid sm:grid-cols-4 grid-cols-2 p-8 pt-3">
         <ul>
             <li class="mb-2 font-semibold text-lg font-mono">Languages</li>
             <li>Python</li>
-            <li>Javascript</li>
+            <li>Javascript (TS)</li>
             <li>Java</li>
         </ul>
         <ul>
@@ -23,7 +23,7 @@
             <li class="mb-2 font-semibold text-lg font-mono">Other</li>
             <li>Git</li>
             <li>Jira</li>
-            <li>Agile Skills</li>
+            <li>Agile Experience</li>
         </ul>
     </div>
 </div>
