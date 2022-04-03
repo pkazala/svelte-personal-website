@@ -6,7 +6,7 @@
 	class="min-h-screen max-w-7xl grid grid-cols-1 mine:grid-cols-2 pb-28 h-fit justify-items-center content-center m-auto"
 >
 	<div class=" grid grid-cols-1 p-7 px-7 justify-items-center m-auto">
-		<img src="src/Assets/double2.png" alt="pimpaczek" class="h-96" />
+		<img src='../Assets/double2.png' alt="pimpaczek" class="h-96" />
 		<div class="text-7xl mt-3 dark:text-white text-black font-liquido">Piotr Kazala</div>
 	</div>
 	<div class="p-3 px-10">
