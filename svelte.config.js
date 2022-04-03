@@ -14,7 +14,11 @@ const config = {
     pages: 'build',
     assets: 'build',
     fallback: null
-  })
+  }),
+  paths: {
+	// change below to your repo name
+	base: dev ? "" : "/svelte-personal-website",
+},
  }
 };
 
