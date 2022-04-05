@@ -18,13 +18,13 @@
             <Li>Tailwind</Li>
         </ul>
         <ul>
-            <li class="mb-2 font-semibold text-lg font-mono text-gray-600 dark:text-gray-300">Back-end</li>
+            <li class="mt-10 sm:mt-0 mb-2 font-semibold text-lg font-mono text-gray-600 dark:text-gray-300">Back-end</li>
             <Li>Flask</Li>
             <Li>MongoDB</Li>
             <Li>PosgreSQL</Li>
         </ul>
         <ul>
-            <li class="mb-2 font-semibold text-lg font-mono text-gray-600 dark:text-gray-300">Other</li>
+            <li class="mt-10 sm:mt-0 mb-2 font-semibold text-lg font-mono text-gray-600 dark:text-gray-300">Other</li>
             <Li>Git</Li>
             <Li>Jira</Li>
             <Li>Agile Experience</Li>

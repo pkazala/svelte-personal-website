@@ -36,7 +36,7 @@
 			<p class="font-mono mt-10 text-xl text-gray-600 dark:text-gray-300">Technologies used:</p>
 			<p class="font-light text-lg text-gray-600 dark:text-gray-300">HTML | CSS | JS (jQuery) | Java (Jooby) | SQL</p>
 			<p class="font-mono mt-4 text-xl text-gray-600 dark:text-gray-300">Links:</p>
-			<p class="font-mono text-gray-600 dark:text-gray-300"><a href="https://github.com/pkazala/vue-shop" target="_blank" class="underline hover:text-cyan-500 dark:hover:text-rose-400">GitHub</a></p>
+			<p class="font-mono text-gray-600 dark:text-gray-300"><a href="https://github.com/pkazala/Bank-Application" target="_blank" class="underline hover:text-cyan-500 dark:hover:text-rose-400">GitHub</a></p>
 		</div>
 	</div>
 </div>
