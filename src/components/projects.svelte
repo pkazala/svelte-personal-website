@@ -14,7 +14,7 @@
 			<p class="font-mono mt-10 text-xl text-gray-600 dark:text-gray-300">Technologies used:</p>
 			<p class="font-light text-lg text-gray-600 dark:text-gray-300">Vue (Vuex) | Tailwind | Flask | MongoDB Atlas | Stripe</p>
 			<p class="font-mono mt-4 text-xl text-gray-600 dark:text-gray-300">Links:</p>
-			<p class="font-mono text-gray-600 dark:text-gray-300"><a href="https://github.com/pkazala/vue-shop" target="_blank" class="underline hover:text-cyan-500 dark:hover:text-rose-400">GitHub (Front-End)</a> | <a href="https://github.com/pkazala/flask-server" target="_blank" class="underline hover:text-cyan-500 dark:hover:text-rose-400">GitHub (Server)</a> | <a href="" target="_blank" class="underline hover:text-cyan-500 dark:hover:text-rose-400">Live App</a></p>
+			<p class="font-mono text-gray-600 dark:text-gray-300"><a href="https://github.com/pkazala/vue-shop" target="_blank" class="underline hover:text-cyan-500 dark:hover:text-rose-400">GitHub (Front-End)</a> | <a href="https://github.com/pkazala/flask-server" target="_blank" class="underline hover:text-cyan-500 dark:hover:text-rose-400">GitHub (Server)</a> | <a href="vue-shop-app.netlify.app" target="_blank" class="underline hover:text-cyan-500 dark:hover:text-rose-400">Live Demo</a></p>
 		</div>
 		<div class="mockup-window border dark:bg-gray-200 bg-base-300 mt-4 mine:max-h-80 lg:max-h-fit">
 			<img src='../Assets/final_gif.gif' alt="pimpaczek" class="h-content" />
@@ -30,7 +30,7 @@
 				This application was built in a group of 5 during my University Course in Agile Software
 				Development in Practice. We worked in sprints doing regular stand-ups and utilising Agile
 				tools like Trello. The application interface was built with simple tools as it only utilised
-				HTML, CSS and JavaScript (a bit of jQuery) and the API was built with Jooby, a Java
+				HTML, CSS and JavaScript (a bit of jQuery) and the REST API was built with Jooby, a Java
 				Framework. My duties included building out the Front-End and Unit-Testing.
 			</div>
 			<p class="font-mono mt-10 text-xl text-gray-600 dark:text-gray-300">Technologies used:</p>
