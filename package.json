@@ -34,6 +34,7 @@
   "type": "module",
   "dependencies": {
     "animate.css": "^4.1.1",
+    "aos": "^3.0.0-beta.6",
     "daisyui": "^2.13.4"
   }
 }
