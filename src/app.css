@@ -28,17 +28,27 @@ body {
 }
 
 .expand {
-  animation: cursorClick .6s forwards;
+  animation: cursorClick .3s forwards;
+}
+
+.shrink {
+  animation: cursorRelease .3s forwards;
 }
 
 @keyframes cursorClick {
-  0%{
+  from {
     transform: translate(-50%, -50%) scale(1);
   }
-  50% {
+  to {
     transform: translate(-50%, -50%) scale(1.35);
   }
-  100% {
+}
+
+@keyframes cursorRelease {
+  from {
+    transform: translate(-50%, -50%) scale(1.35);
+  }
+  to {
     transform: translate(-50%, -50%) scale(1);
   }
 }

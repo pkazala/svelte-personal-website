@@ -19,11 +19,13 @@
 		document.addEventListener('mousemove', (event) => {
 			cursor.setAttribute("style","top: "+(event.pageY - scrollY)+"px; left: "+(event.pageX)+"px");
 
-			document.addEventListener('click', () => {
+			document.addEventListener('mousedown', () => {
+				cursor.classList.remove('shrink');
 				cursor.classList.add('expand');
-				setTimeout(() => {
-					cursor.classList.remove('expand');
-				}, 600)
+			});
+			document.addEventListener('mouseup', () => {
+				cursor.classList.remove('expand');
+				cursor.classList.add('shrink');
 			});
 		});
 	});
