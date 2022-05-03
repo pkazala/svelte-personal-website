@@ -20,12 +20,10 @@
 			cursor.setAttribute("style","top: "+(event.pageY - scrollY)+"px; left: "+(event.pageX)+"px");
 
 			document.addEventListener('click', () => {
-				cursor.classList.remove('shrink');
 				cursor.classList.add('expand');
 				setTimeout(() => {
 					cursor.classList.remove('expand');
-					cursor.classList.add('shrink');
-				}, 300)
+				}, 600)
 			});
 		});
 	});
