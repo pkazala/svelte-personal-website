@@ -32,7 +32,7 @@
 </script>
 
 <div class="dark:bg-gray-800 bg-stone-50 hover:cursor-none">
-	<div class="cursor" />
+	<div class="cursor dark:bg-white" />
 	<Nav />
 	<Header />
 	<Technologies />

@@ -18,9 +18,8 @@ body {
 .cursor {
   width: 16px;
   height: 16px;
-  background: white;
+  background: black;
   border-radius: 50%;
-  position: absolute;
   transition-duration: 100ms;
   transition-timing-function: ease-out;
   pointer-events: none;
