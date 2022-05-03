@@ -24,6 +24,8 @@ body {
   transition-duration: 100ms;
   transition-timing-function: ease-out;
   pointer-events: none;
+  transform: translate(-50%, -50%);
+  position: fixed;
 }
 
 .expand {
