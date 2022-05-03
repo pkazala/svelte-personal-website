@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       fontFamily: {
         liquido: ["LIQUIDO"],
-        glassure: ["GLASSURE"]
+        glassure: ["GLASSURE"],
+        stylish: ["DM Serif Display"]
       },
       backgroundImage: {
         'dark-gh': "url('src/Assets/SVG/git1.svg')",

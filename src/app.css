@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -32,7 +34,7 @@ body {
 }
 
 .shrink {
-  animation: cursorRelease .3s forwards;
+  animation: cursorRelease .4s forwards;
 }
 
 @keyframes cursorClick {
@@ -45,10 +47,16 @@ body {
 }
 
 @keyframes cursorRelease {
-  from {
+  0% {
     transform: translate(-50%, -50%) scale(1.35);
   }
-  to {
+  33% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  66% {
+    transform: translate(-50%, -50%) scale(0.85);
+  }
+  100% {
     transform: translate(-50%, -50%) scale(1);
   }
 }
