@@ -10,3 +10,44 @@
   font-family: "GLASSURE";
   src: url("./Assets/Fonts/Glassure.otf");
 }
+
+body {
+  cursor: none;
+}
+
+.cursor {
+  width: 16px;
+  height: 16px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  transition-duration: 100ms;
+  transition-timing-function: ease-out;
+  pointer-events: none;
+}
+
+.expand {
+  animation: cursorClick .3s forwards;
+}
+
+.shrink {
+  animation: cursorShrink .3s forwards;
+}
+
+@keyframes cursorClick {
+from{
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
+
+@keyframes cursorShrink {
+from{
+    transform: scale(1.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}

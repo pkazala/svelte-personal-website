@@ -6,19 +6,36 @@
 	import Contact from '../components/contact.svelte';
 	import Footer from '../components/footer.svelte';
 	import AOS from 'aos';
-    import 'aos/dist/aos.css';
+	import 'aos/dist/aos.css';
 	import { onMount } from 'svelte';
 
 	onMount(() => {
 		AOS.init({
 			once: false,
-            delay: 100,
-            duration: 500
-		})
-    })
+			delay: 100,
+			duration: 500
+		});
+		const cursor = document.querySelector('.cursor');
+		document.addEventListener('mousemove', (event) => {
+			cursor.setAttribute(
+				'style',
+				'top: ' + (event.pageY - 8) + 'px; left: ' + (event.pageX - 8) + 'px;'
+			);
+
+			document.addEventListener('click', () => {
+				cursor.classList.remove('shrink');
+				cursor.classList.add('expand');
+				setTimeout(() => {
+					cursor.classList.remove('expand');
+					cursor.classList.add('shrink');
+				}, 300)
+			});
+		});
+	});
 </script>
 
-<div class="dark:bg-gray-800 bg-stone-50">
+<div class="dark:bg-gray-800 bg-stone-50 hover:cursor-none">
+	<div class="cursor" />
 	<Nav />
 	<Header />
 	<Technologies />

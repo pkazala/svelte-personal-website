@@ -11,6 +11,6 @@ class="grid grid-cols-1 justify-items-center"
   <label class="mt-4">
     <textarea name="message" required class="text-center w-96 h-20 rounded-sm outline outline-1 dark:outline-none" placeholder="Your Message"></textarea>
   </label>
-  <button type="submit" class="bg-cyan-500 dark:bg-rose-400 text-white p-1 my-6 w-96 rounded-sm mb-10 hover:bg-cyan-600 dark:hover:bg-red-500 transition ease-in-out">Send</button>
+  <button type="submit" class="cursor-none bg-cyan-500 dark:bg-rose-400 text-white p-1 my-6 w-96 rounded-sm mb-10 hover:bg-cyan-600 dark:hover:bg-red-500 transition ease-in-out">Send</button>
 </form>
 </div>
