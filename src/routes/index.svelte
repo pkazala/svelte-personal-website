@@ -11,7 +11,7 @@
 
 	onMount(() => {
 		AOS.init({
-			once: false,
+			once: true,
 			delay: 100,
 			duration: 500
 		});
@@ -31,7 +31,7 @@
 	});
 </script>
 
-<div class="dark:bg-gray-800 bg-stone-50 hover:cursor-none">
+<div class="dark:bg-gray-800 bg-stone-50 hover:cursor-none scroll-smooth">
 	<div class="cursor dark:bg-white" />
 	<Nav />
 	<Header />
