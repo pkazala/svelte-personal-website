@@ -5,6 +5,7 @@
 	import Projects from '../components/projects.svelte';
 	import Contact from '../components/contact.svelte';
 	import Footer from '../components/footer.svelte';
+	import Intro from '../components/intro.svelte';
 	import AOS from 'aos';
 	import 'aos/dist/aos.css';
 	import { onMount } from 'svelte';
@@ -32,6 +33,7 @@
 </script>
 
 <div class="dark:bg-gray-800 bg-stone-50 hover:cursor-none scroll-smooth">
+	<Intro />
 	<div class="cursor dark:bg-white" />
 	<Nav />
 	<Header />
