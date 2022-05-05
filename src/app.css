@@ -12,6 +12,10 @@
 	font-family: 'GLASSURE';
 	src: url('./Assets/Fonts/Glassure.otf');
 }
+@font-face {
+	font-family: 'Altero';
+	src: url('./Assets/Fonts/Altero.otf');
+}
 
 body {
 	cursor: none;
@@ -19,7 +23,7 @@ body {
 
 .intro {
 	position: fixed;
-	z-index: 1;
+	z-index: 10;
 	left: 0;
 	top: 0;
 	width: 100%;
@@ -34,7 +38,7 @@ body {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: #1f2937;
-	font-size: 3.5rem;
+	font-size: 3.75rem;
 }
 
 .logo {
@@ -59,7 +63,7 @@ body {
 .end {
 	top: -100vh;
 	transition-timing-function: ease-in;
-	transition-duration: 0.6s;
+	transition-duration: 0.44s;
 }
 
 .cursor {
@@ -72,6 +76,7 @@ body {
 	pointer-events: none;
 	transform: translate(-50%, -50%);
 	position: fixed;
+	z-index: 2;
 }
 
 .expand {
@@ -82,16 +87,12 @@ body {
 	animation: cursorRelease 0.4s forwards;
 }
 
-@keyframes curlCorners {
-	0% {
-		top: 0;
-	}
-	25% {
-		top: -10vh;
-	}
-	100% {
-		top: -100vh;
-	}
+.projecthover {
+	animation: cursorHover 0.3s forwards;
+}
+
+.projectshrink {
+	animation: cursorLeave 0.4s forwards;
 }
 
 @keyframes cursorClick {
@@ -116,4 +117,62 @@ body {
 	100% {
 		transform: translate(-50%, -50%) scale(1);
 	}
+}
+
+@keyframes cursorHover {
+	from {
+		transform: translate(-50%, -50%) scale(1);
+	}
+	to {
+		transform: translate(-50%, -50%) scale(2.5);
+		background: white;
+	}
+}
+
+@keyframes cursorLeave {
+	from {
+		transform: translate(-50%, -50%) scale(2.5);
+	}
+	to {
+		transform: translate(-50%, -50%) scale(1);
+	}
+}
+
+.textFill {
+	position: relative;
+	display: inline-block;
+	font-size: 2em;
+	font-weight: 800;
+	color: royalblue;
+	overflow: hidden;
+	background: linear-gradient(to right, midnightblue, midnightblue 50%, royalblue 50%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-size: 200% 100%;
+	background-position: 100%;
+	transition: background-position 275ms ease;
+	text-decoration: none;
+}
+.textFill:hover {
+	background-position: 0 100%;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: black;
+}
+
+.anim {
+	animation-delay: 2s;
+	animation-duration: 0.3s;
 }

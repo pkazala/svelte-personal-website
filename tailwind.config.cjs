@@ -6,6 +6,7 @@ module.exports = {
       fontFamily: {
         liquido: ["LIQUIDO"],
         glassure: ["GLASSURE"],
+        altero: ["Altero"],
         stylish: ["DM Serif Display"]
       },
       backgroundImage: {
@@ -27,6 +28,8 @@ module.exports = {
       'mine': '900px',
 
       'lg': '1024px',
+
+      'xlg': '1160px',
 
       'xl': '1280px',
 
