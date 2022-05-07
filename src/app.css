@@ -23,7 +23,7 @@ body {
 
 .intro {
 	position: fixed;
-	z-index: 10;
+	z-index: 11;
 	left: 0;
 	top: 0;
 	width: 100%;
@@ -79,6 +79,15 @@ body {
 	z-index: 2;
 }
 
+.image {
+	position: fixed;
+	z-index: 1;
+	transition-duration: 200ms;
+	transition-timing-function: ease-out;
+	transform: translate(-0%, -50%);
+	pointer-events: none;
+}
+
 .expand {
 	animation: cursorClick 0.3s forwards;
 }
@@ -125,7 +134,6 @@ body {
 	}
 	to {
 		transform: translate(-50%, -50%) scale(2.5);
-		background: white;
 	}
 }
 
@@ -137,27 +145,6 @@ body {
 		transform: translate(-50%, -50%) scale(1);
 	}
 }
-
-.textFill {
-	position: relative;
-	display: inline-block;
-	font-size: 2em;
-	font-weight: 800;
-	color: royalblue;
-	overflow: hidden;
-	background: linear-gradient(to right, midnightblue, midnightblue 50%, royalblue 50%);
-	background-clip: text;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	background-size: 200% 100%;
-	background-position: 100%;
-	transition: background-position 275ms ease;
-	text-decoration: none;
-}
-.textFill:hover {
-	background-position: 0 100%;
-}
-
 ::-webkit-scrollbar {
 	width: 10px;
 }
@@ -175,4 +162,16 @@ body {
 .anim {
 	animation-delay: 2s;
 	animation-duration: 0.3s;
+}
+
+@media (max-width: 640px) {
+	.logo-header {
+		font-size: 3rem;
+	}
+}
+
+@media (min-width: 1500px) {
+	.logo-header {
+		font-size: 4rem;
+	}
 }
