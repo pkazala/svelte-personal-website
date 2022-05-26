@@ -81,7 +81,7 @@
 			<h1 class="group-hover:text-gray-500 transition ease-in-out duration-300 z-10">Vue Store</h1>
 			{#if visible1 && !section1}
 				<p class="justify-self-end z-10" transition:fade>View</p>
-				<img src="../Assets/photos/project1.jpg" alt="project-1" class="w-[275px] image rounded-lg" style="top: {top}px; left: {left}px;" transition:fade={{ delay: 150}}>
+				<img src="../static/Assets/photos/project1.jpg" alt="project-1" class="w-[275px] image rounded-lg" style="top: {top}px; left: {left}px;" transition:fade={{ delay: 150}}>
 			{/if}
 		</li>
 			{#if section1}
@@ -95,7 +95,7 @@
 			<h1 class="group-hover:text-gray-500 transition ease-in-out duration-300 z-10">Java Banking App</h1>
 			{#if visible2 && !section2}
 				<p class="justify-self-end z-10" transition:fade>View</p>
-				<img src="../Assets/photos/project2.jpg" alt="project-1" class="w-[275px] image rounded-lg" style="top: {top}px; left: {left}px;" transition:fade={{ delay: 150}}>
+				<img src="../static/Assets/photos/project2.jpg" alt="project-1" class="w-[275px] image rounded-lg" style="top: {top}px; left: {left}px;" transition:fade={{ delay: 150}}>
 			{/if}
 		</li>
 			{#if section2}
@@ -109,7 +109,7 @@
 			<h1 class="group-hover:text-gray-500 transition ease-in-out duration-300 z-10">Portfolio Website</h1>
 			{#if visible4 && !section4}
 				<p class="justify-self-end z-10" transition:fade>View</p>
-				<img src="../Assets/photos/project4.jpg" alt="project-1" class="w-[275px] image rounded-lg" style="top: {top}px; left: {left}px;" transition:fade={{ delay: 150}}>
+				<img src="../static/Assets/photos/project4.jpg" alt="project-1" class="w-[275px] image rounded-lg" style="top: {top}px; left: {left}px;" transition:fade={{ delay: 150}}>
 			{/if}
 		</li>
 			{#if section4}

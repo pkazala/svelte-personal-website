@@ -2,7 +2,7 @@
 </script>
 
 <section class="text-3xl mt-10 mb-10 font-raleway">
-    <img src="../src/Assets/final_gif.gif" alt="mockup1" class="outline outline-1">
+    <img src="../static/Assets/final_gif.gif" alt="mockup1" class="outline outline-1">
 	<p class="mt-10">
 		An E-Commerce website built with a combination of Vue and Tailwind on the Front-End and Python
 		(Flask) and MongoDB Atlas on the server-side. I decided to build this project to test my
