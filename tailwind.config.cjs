@@ -6,7 +6,9 @@ module.exports = {
       fontFamily: {
         liquido: ["LIQUIDO"],
         glassure: ["GLASSURE"],
-        stylish: ["DM Serif Display"]
+        altero: ["Altero"],
+        stylish: ["DM Serif Display"],
+        raleway: ["Raleway"]
       },
       backgroundImage: {
         'dark-gh': "url('src/Assets/SVG/git1.svg')",
@@ -27,6 +29,8 @@ module.exports = {
       'mine': '900px',
 
       'lg': '1024px',
+
+      'xlg': '1160px',
 
       'xl': '1280px',
 

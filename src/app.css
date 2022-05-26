@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -12,6 +13,10 @@
 	font-family: 'GLASSURE';
 	src: url('./Assets/Fonts/Glassure.otf');
 }
+@font-face {
+	font-family: 'Altero';
+	src: url('./Assets/Fonts/Altero.otf');
+}
 
 body {
 	cursor: none;
@@ -19,7 +24,7 @@ body {
 
 .intro {
 	position: fixed;
-	z-index: 1;
+	z-index: 11;
 	left: 0;
 	top: 0;
 	width: 100%;
@@ -30,17 +35,18 @@ body {
 
 .logo-header {
 	position: absolute;
-	top: 40%;
+	top: 45%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: #1f2937;
-	font-size: 3.5rem;
+	font-size: 3.75rem;
+	font-weight: 100;
 }
 
 .logo {
 	position: relative;
 	display: inline-block;
-	bottom: -60px;
+	bottom: -75px;
 	opacity: 0;
 }
 
@@ -59,19 +65,29 @@ body {
 .end {
 	top: -100vh;
 	transition-timing-function: ease-in;
-	transition-duration: 0.6s;
+	transition-duration: 0.44s;
 }
 
 .cursor {
 	width: 16px;
 	height: 16px;
-	background: black;
+	background: #93c5fd;
 	border-radius: 50%;
 	transition-duration: 100ms;
 	transition-timing-function: ease-out;
 	pointer-events: none;
 	transform: translate(-50%, -50%);
 	position: fixed;
+	z-index: 2;
+}
+
+.image {
+	position: fixed;
+	z-index: 1;
+	transition-duration: 200ms;
+	transition-timing-function: ease-out;
+	transform: translate(-0%, -50%);
+	pointer-events: none;
 }
 
 .expand {
@@ -82,16 +98,12 @@ body {
 	animation: cursorRelease 0.4s forwards;
 }
 
-@keyframes curlCorners {
-	0% {
-		top: 0;
-	}
-	25% {
-		top: -10vh;
-	}
-	100% {
-		top: -100vh;
-	}
+.projecthover {
+	animation: cursorHover 0.3s forwards;
+}
+
+.projectshrink {
+	animation: cursorLeave 0.4s forwards;
 }
 
 @keyframes cursorClick {
@@ -115,5 +127,53 @@ body {
 	}
 	100% {
 		transform: translate(-50%, -50%) scale(1);
+	}
+}
+
+@keyframes cursorHover {
+	from {
+		transform: translate(-50%, -50%) scale(1);
+	}
+	to {
+		transform: translate(-50%, -50%) scale(2.5);
+	}
+}
+
+@keyframes cursorLeave {
+	from {
+		transform: translate(-50%, -50%) scale(2.5);
+	}
+	to {
+		transform: translate(-50%, -50%) scale(1);
+	}
+}
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: black;
+}
+
+.anim {
+	animation-delay: 2s;
+	animation-duration: 0.3s;
+}
+
+@media (max-width: 640px) {
+	.logo-header {
+		font-size: 3rem;
+	}
+}
+
+@media (min-width: 1500px) {
+	.logo-header {
+		font-size: 4rem;
 	}
 }
