@@ -2,7 +2,7 @@
 </script>
 
 <section class="text-3xl mt-10 mb-10 font-raleway">
-	<img src="../src/Assets/second_gif.gif" alt="mockup1" class="outline outline-1" />
+	<img src="../Assets/second_gif.gif" alt="mockup1" class="outline outline-1" />
 	<p class="mt-10">
 		This application was built in a group of 5 during my University Course in Agile Software
 		Development in Practice. We worked in sprints doing regular stand-ups and utilising Agile tools
