@@ -1,10 +1,5 @@
 <script>
 	import Nav from '../components/nav.svelte';
-	import Header from '../components/header.svelte';
-	import Technologies from '../components/technologies.svelte';
-	import Projects from '../components/projects.svelte';
-	import Contact from '../components/contact.svelte';
-	import Footer from '../components/footer.svelte';
 	import Intro from '../components/intro.svelte';
 	import Hero from '../components/hero.svelte';
 	import NewProjects from '../components/newprojects.svelte';
