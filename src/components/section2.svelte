@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <section class="text-3xl mt-10 mb-10 font-raleway">
 	<img src="../static/Assets/second_gif.gif" alt="mockup1" class="outline outline-1" />
 	<p class="mt-10">
