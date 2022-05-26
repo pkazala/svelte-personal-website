@@ -7,7 +7,8 @@ module.exports = {
         liquido: ["LIQUIDO"],
         glassure: ["GLASSURE"],
         altero: ["Altero"],
-        stylish: ["DM Serif Display"]
+        stylish: ["DM Serif Display"],
+        raleway: ["Raleway"]
       },
       backgroundImage: {
         'dark-gh': "url('src/Assets/SVG/git1.svg')",
