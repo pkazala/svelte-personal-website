@@ -17,8 +17,8 @@
 		let target = 0;
 		let target2 = 0;
 		let target3 = 0;
-		let ease = 0.05;
-		let ease2 = 0.04;
+		let ease = 0.06;
+		let ease2 = 0.045;
 		let ease3 = 0.03;
 
 		function lerp(start, end, t) {

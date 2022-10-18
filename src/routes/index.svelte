@@ -5,6 +5,7 @@
 	import NewProjects from '../components/newprojects.svelte';
 	import NewContact from '../components/newcontact.svelte';
 	import Photo from '../components/photogallery.svelte';
+	import Footer from '../components/footer.svelte';
 	import AOS from 'aos';
 	import 'aos/dist/aos.css';
 	import { onMount } from 'svelte';
@@ -47,4 +48,5 @@
 	<NewProjects />
 	<Photo />
 	<NewContact />
+	<Footer />
 </div>
