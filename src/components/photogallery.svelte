@@ -87,31 +87,31 @@
 		<div class="slider absolute top-0 left-0 w-[3500px] h-full">
 			<div class="slider-inner absolute top-[50%] h-full w-full flex justify-around">
 				<div class="item relative w-96 h-full overflow-hidden">
-					<img src="/Images/1x1/31.jpg" alt="" class="image w-96" />
+					<img src="/Images/1x1/31.webp" alt="" class="image w-96" />
 				</div>
 				<div class="item relative w-96 h-96 overflow-hidden">
-					<img src="/Images/1x1/2.jpg" alt="" class="image w-96" />
+					<img src="/Images/1x1/2.webp" alt="" class="image w-96" />
 				</div>
 				<div class="item relative w-96 h-96 overflow-hidden">
-					<img src="/Images/1x1/5.jpg" alt="" class="image w-96" />
+					<img src="/Images/1x1/5.webp" alt="" class="image w-96" />
 				</div>
 				<div class="item relative w-96 h-96 overflow-hidden">
-					<img src="/Images/1x1/8.jpg" alt="" class="image w-96" />
+					<img src="/Images/1x1/8.webp" alt="" class="image w-96" />
 				</div>
 				<div class="item relative w-96 h-96 overflow-hidden">
-					<img src="/Images/1x1/9.jpg" alt="" class="image w-96" />
+					<img src="/Images/1x1/9.webp" alt="" class="image w-96" />
 				</div>
 				<div class="item relative w-96 h-96 overflow-hidden">
-					<img src="/Images/1x1/12.jpg" alt="" class="image w-96" />
+					<img src="/Images/1x1/12.webp" alt="" class="image w-96" />
 				</div>
 				<div class="item relative w-96 h-96 overflow-hidden">
-					<img src="/Images/1x1/14.jpg" alt="" class="image w-96" />
+					<img src="/Images/1x1/14.webp" alt="" class="image w-96" />
 				</div>
 				<div class="item relative w-96 h-96 overflow-hidden">
-					<img src="/Images/1x1/27.jpg" alt="" class="image w-96" />
+					<img src="/Images/1x1/27.webp" alt="" class="image w-96" />
 				</div>
 				<div class="item relative w-96 h-96 overflow-hidden">
-					<img src="/Images/1x1/25.jpg" alt="" class="image w-96" />
+					<img src="/Images/1x1/25.webp" alt="" class="image w-96" />
 				</div>
 			</div>
 		</div>
@@ -160,40 +160,40 @@
 		<div class="slider3 absolute top-0 left-0 w-[4667px] h-full">
 			<div class="slider-inner absolute top-[1%] h-full w-full flex justify-around">
 				<div class="item relative w-96 h-full overflow-hidden">
-					<img src="/Images/1x1/9.jpg" alt="" class="image3 w-96" />
+					<img src="/Images/1x1/9.webp" alt="" class="image3 w-96" />
 				</div>
 				<div class="item relative w-96 h-full overflow-hidden">
-					<img src="/Images/1x1/9.jpg" alt="" class="image3 w-96" />
+					<img src="/Images/1x1/9.webp" alt="" class="image3 w-96" />
 				</div>
 				<div class="item relative w-96 h-full overflow-hidden">
-					<img src="/Images/1x1/9.jpg" alt="" class="image3 w-96" />
+					<img src="/Images/1x1/9.webp" alt="" class="image3 w-96" />
 				</div>
 				<div class="item relative w-96 h-full overflow-hidden">
-					<img src="/Images/1x1/34.jpg" alt="" class="image3 w-96" />
+					<img src="/Images/1x1/34.webp" alt="" class="image3 w-96" />
 				</div>
 				<div class="item relative w-96 h-full overflow-hidden">
-					<img src="/Images/1x1/18.jpg" alt="" class="image3 w-96" />
+					<img src="/Images/1x1/18.webp" alt="" class="image3 w-96" />
 				</div>
 				<div class="item relative w-96 h-full overflow-hidden">
-					<img src="/Images/1x1/13.jpg" alt="" class="image3 w-96" />
+					<img src="/Images/1x1/13.webp" alt="" class="image3 w-96" />
 				</div>
 				<div class="item relative w-96 h-full overflow-hidden">
-					<img src="/Images/1x1/15.jpg" alt="" class="image3 w-96" />
+					<img src="/Images/1x1/15.webp" alt="" class="image3 w-96" />
 				</div>
 				<div class="item relative w-96 h-full overflow-hidden">
-					<img src="/Images/1x1/22.jpg" alt="" class="image3 w-96" />
+					<img src="/Images/1x1/22.webp" alt="" class="image3 w-96" />
 				</div>
 				<div class="item relative w-96 h-full overflow-hidden">
-					<img src="/Images/1x1/16.jpg" alt="" class="image3 w-96" />
+					<img src="/Images/1x1/16.webp" alt="" class="image3 w-96" />
 				</div>
 				<div class="item relative w-96 h-full overflow-hidden">
-					<img src="/Images/1x1/2.jpg" alt="" class="image3 w-96" />
+					<img src="/Images/1x1/2.webp" alt="" class="image3 w-96" />
 				</div>
 				<div class="item relative w-96 h-full overflow-hidden">
-					<img src="/Images/1x1/23.jpg" alt="" class="image3 w-96" />
+					<img src="/Images/1x1/23.webp" alt="" class="image3 w-96" />
 				</div>
 				<div class="item relative w-96 h-full overflow-hidden">
-					<img src="/Images/1x1/24.jpg" alt="" class="image3 w-96" />
+					<img src="/Images/1x1/24.webp" alt="" class="image3 w-96" />
 				</div>
 			</div>
 		</div>
