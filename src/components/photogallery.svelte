@@ -122,34 +122,34 @@
 		<div class="slider2 absolute top-0 left-0 w-[3889px] h-full">
 			<div class="slider-inner absolute top-[0%] h-full w-full flex justify-around">
 				<div class="item relative w-96 h-full overflow-hidden">
-					<img src="/Images/4x3/10.jpg" alt="" class="image2 w-96" />
+					<img src="/Images/4x3/10.webp" alt="" class="image2 w-96" />
 				</div>
 				<div class="item relative w-96 h-full overflow-hidden">
-					<img src="/Images/4x3/10.jpg" alt="" class="image2 w-96" />
+					<img src="/Images/4x3/10.webp" alt="" class="image2 w-96" />
 				</div>
 				<div class="item relative w-96 h-[34rem] overflow-hidden">
-					<img src="/Images/4x3/20.jpg" alt="" class="image2 w-96 h-[34rem]" />
+					<img src="/Images/4x3/20.webp" alt="" class="image2 w-96 h-[34rem]" />
 				</div>
 				<div class="item relative w-96 h-[34rem] overflow-hidden">
-					<img src="/Images/4x3/17.jpg" alt="" class="image2 w-96 h-[34rem]" />
+					<img src="/Images/4x3/17.webp" alt="" class="image2 w-96 h-[34rem]" />
 				</div>
 				<div class="item relative w-96 h-[34rem] overflow-hidden">
-					<img src="/Images/4x3/30.jpg" alt="" class="image2 w-96 h-[34rem]" />
+					<img src="/Images/4x3/30.webp" alt="" class="image2 w-96 h-[34rem]" />
 				</div>
 				<div class="item relative w-96 h-[34rem] overflow-hidden">
-					<img src="/Images/4x3/29.jpg" alt="" class="image2 w-96 h-[34rem]" />
+					<img src="/Images/4x3/29.webp" alt="" class="image2 w-96 h-[34rem]" />
 				</div>
 				<div class="item relative w-96 h-[34rem] overflow-hidden">
-					<img src="/Images/4x3/33.jpg" alt="" class="image2 w-96 h-[34rem]" />
+					<img src="/Images/4x3/33.webp" alt="" class="image2 w-96 h-[34rem]" />
 				</div>
 				<div class="item relative w-96 h-[34rem] overflow-hidden">
-					<img src="/Images/4x3/6.jpg" alt="" class="image2 w-96 h-[34rem]" />
+					<img src="/Images/4x3/6.webp" alt="" class="image2 w-96 h-[34rem]" />
 				</div>
 				<div class="item relative w-96 h-[34rem] overflow-hidden">
-					<img src="/Images/4x3/26.jpg" alt="" class="image2 w-96 h-[34rem]" />
+					<img src="/Images/4x3/26.webp" alt="" class="image2 w-96 h-[34rem]" />
 				</div>
 				<div class="item relative w-96 h-[34rem] overflow-hidden">
-					<img src="/Images/4x3/5.jpg" alt="" class="image2 w-96 h-[34rem]" />
+					<img src="/Images/4x3/5.webp" alt="" class="image2 w-96 h-[34rem]" />
 				</div>
 			</div>
 		</div>
