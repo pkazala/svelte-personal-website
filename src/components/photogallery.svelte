@@ -50,21 +50,21 @@
 		function animate() {
 			current = parseFloat(lerp(current, target, ease)).toFixed(2);
 			target = window.scrollY;
-			setTransform(slider, `translateX(-${current}px)`);
+			setTransform(slider, `translateX(-${current-1000}px)`);
 			requestAnimationFrame(animate);
 		}
 
 		function animate2() {
 			current2 = parseFloat(lerp(current2, target2, ease2)).toFixed(2);
 			target2 = window.scrollY;
-			setTransform(slider2, `translateX(-${current2}px)`);
+			setTransform(slider2, `translateX(-${current2-1300}px)`);
 			requestAnimationFrame(animate2);
 		}
 
 		function animate3() {
 			current3 = parseFloat(lerp(current3, target3, ease3)).toFixed(2);
 			target3 = window.scrollY;
-			setTransform(slider3, `translateX(-${current3}px)`);
+			setTransform(slider3, `translateX(-${current3-1770}px)`);
 			requestAnimationFrame(animate3);
 		}
 
@@ -84,13 +84,13 @@
 	<section
 		class="relative overflow-hidden h-[24.4rem] mt-4 max-w-7xl m-auto grid grid-cols-1 font-stylish text-black dark:text-white px-10 md:px-12 mine:px-14 lg:px-18 xlg:px-24 xl:px-[7.5rem]"
 	>
-		<div class="slider absolute top-0 left-0 w-[3500px] h-full">
+		<div class="slider absolute top-0 left-0 w-[3100px] h-full">
 			<div class="slider-inner absolute top-[50%] h-full w-full flex justify-around">
 				<div class="item relative w-96 h-full overflow-hidden">
 					<img src="/Images/1x1/31.webp" alt="" class="image w-96" />
 				</div>
 				<div class="item relative w-96 h-96 overflow-hidden">
-					<img src="/Images/1x1/2.webp" alt="" class="image w-96" />
+					<img src="/Images/1x1/27.webp" alt="" class="image w-96" />
 				</div>
 				<div class="item relative w-96 h-96 overflow-hidden">
 					<img src="/Images/1x1/5.webp" alt="" class="image w-96" />
@@ -108,9 +108,6 @@
 					<img src="/Images/1x1/14.webp" alt="" class="image w-96" />
 				</div>
 				<div class="item relative w-96 h-96 overflow-hidden">
-					<img src="/Images/1x1/27.webp" alt="" class="image w-96" />
-				</div>
-				<div class="item relative w-96 h-96 overflow-hidden">
 					<img src="/Images/1x1/25.webp" alt="" class="image w-96" />
 				</div>
 			</div>
@@ -119,34 +116,34 @@
 	<section
 		class="relative overflow-hidden h-[32.4rem] max-w-7xl m-auto grid grid-cols-1 font-stylish text-black dark:text-white px-10 md:px-12 mine:px-14 lg:px-18 xlg:px-24 xl:px-[7.5rem]"
 	>
-		<div class="slider2 absolute top-0 left-0 w-[3889px] h-full">
+		<div class="slider2 absolute top-0 left-0 w-[3880px] h-full">
 			<div class="slider-inner absolute top-[0%] h-full w-full flex justify-around">
 				<div class="item relative w-96 h-full overflow-hidden">
 					<img src="/Images/4x3/10.webp" alt="" class="image2 w-96" />
 				</div>
 				<div class="item relative w-96 h-full overflow-hidden">
-					<img src="/Images/4x3/10.webp" alt="" class="image2 w-96" />
-				</div>
-				<div class="item relative w-96 h-[34rem] overflow-hidden">
-					<img src="/Images/4x3/20.webp" alt="" class="image2 w-96 h-[34rem]" />
-				</div>
-				<div class="item relative w-96 h-[34rem] overflow-hidden">
-					<img src="/Images/4x3/17.webp" alt="" class="image2 w-96 h-[34rem]" />
-				</div>
-				<div class="item relative w-96 h-[34rem] overflow-hidden">
-					<img src="/Images/4x3/30.webp" alt="" class="image2 w-96 h-[34rem]" />
-				</div>
-				<div class="item relative w-96 h-[34rem] overflow-hidden">
-					<img src="/Images/4x3/29.webp" alt="" class="image2 w-96 h-[34rem]" />
+					<img src="/Images/4x3/26.webp" alt="" class="image2 w-96" />
 				</div>
 				<div class="item relative w-96 h-[34rem] overflow-hidden">
 					<img src="/Images/4x3/33.webp" alt="" class="image2 w-96 h-[34rem]" />
 				</div>
 				<div class="item relative w-96 h-[34rem] overflow-hidden">
+					<img src="/Images/4x3/29.webp" alt="" class="image2 w-96 h-[34rem]" />
+				</div>
+				<div class="item relative w-96 h-[34rem] overflow-hidden">
 					<img src="/Images/4x3/6.webp" alt="" class="image2 w-96 h-[34rem]" />
 				</div>
 				<div class="item relative w-96 h-[34rem] overflow-hidden">
-					<img src="/Images/4x3/26.webp" alt="" class="image2 w-96 h-[34rem]" />
+					<img src="/Images/4x3/28.webp" alt="" class="image2 w-96 h-[34rem]" />
+				</div>
+				<div class="item relative w-96 h-[34rem] overflow-hidden">
+					<img src="/Images/4x3/20.webp" alt="" class="image2 w-96 h-[34rem]" />
+				</div>
+				<div class="item relative w-96 h-[34rem] overflow-hidden">
+					<img src="/Images/4x3/30.webp" alt="" class="image2 w-96 h-[34rem]" />
+				</div>
+				<div class="item relative w-96 h-[34rem] overflow-hidden">
+					<img src="/Images/4x3/28.webp" alt="" class="image2 w-96 h-[34rem]" />
 				</div>
 				<div class="item relative w-96 h-[34rem] overflow-hidden">
 					<img src="/Images/4x3/5.webp" alt="" class="image2 w-96 h-[34rem]" />
@@ -157,14 +154,8 @@
 	<section
 		class="relative overflow-hidden h-[24.4rem] max-w-7xl m-auto grid grid-cols-1 font-stylish text-black dark:text-white px-10 md:px-12 mine:px-14 lg:px-18 xlg:px-24 xl:px-[7.5rem]"
 	>
-		<div class="slider3 absolute top-0 left-0 w-[4667px] h-full">
+		<div class="slider3 absolute top-0 left-0 w-[3105px] h-full">
 			<div class="slider-inner absolute top-[1%] h-full w-full flex justify-around">
-				<div class="item relative w-96 h-full overflow-hidden">
-					<img src="/Images/1x1/9.webp" alt="" class="image3 w-96" />
-				</div>
-				<div class="item relative w-96 h-full overflow-hidden">
-					<img src="/Images/1x1/9.webp" alt="" class="image3 w-96" />
-				</div>
 				<div class="item relative w-96 h-full overflow-hidden">
 					<img src="/Images/1x1/9.webp" alt="" class="image3 w-96" />
 				</div>
@@ -172,7 +163,13 @@
 					<img src="/Images/1x1/34.webp" alt="" class="image3 w-96" />
 				</div>
 				<div class="item relative w-96 h-full overflow-hidden">
-					<img src="/Images/1x1/18.webp" alt="" class="image3 w-96" />
+					<img src="/Images/1x1/25.webp" alt="" class="image3 w-96" />
+				</div>
+				<div class="item relative w-96 h-full overflow-hidden">
+					<img src="/Images/1x1/16.webp" alt="" class="image3 w-96" />
+				</div>
+				<div class="item relative w-96 h-full overflow-hidden">
+					<img src="/Images/1x1/22.webp" alt="" class="image3 w-96" />
 				</div>
 				<div class="item relative w-96 h-full overflow-hidden">
 					<img src="/Images/1x1/13.webp" alt="" class="image3 w-96" />
@@ -181,19 +178,7 @@
 					<img src="/Images/1x1/15.webp" alt="" class="image3 w-96" />
 				</div>
 				<div class="item relative w-96 h-full overflow-hidden">
-					<img src="/Images/1x1/22.webp" alt="" class="image3 w-96" />
-				</div>
-				<div class="item relative w-96 h-full overflow-hidden">
-					<img src="/Images/1x1/16.webp" alt="" class="image3 w-96" />
-				</div>
-				<div class="item relative w-96 h-full overflow-hidden">
-					<img src="/Images/1x1/2.webp" alt="" class="image3 w-96" />
-				</div>
-				<div class="item relative w-96 h-full overflow-hidden">
-					<img src="/Images/1x1/23.webp" alt="" class="image3 w-96" />
-				</div>
-				<div class="item relative w-96 h-full overflow-hidden">
-					<img src="/Images/1x1/24.webp" alt="" class="image3 w-96" />
+					<img src="/Images/1x1/18.webp" alt="" class="image3 w-96" />
 				</div>
 			</div>
 		</div>

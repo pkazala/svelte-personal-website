@@ -3,6 +3,7 @@
 	import Intro from '../components/intro.svelte';
 	import Hero from '../components/hero.svelte';
 	import NewProjects from '../components/newprojects.svelte';
+	import Experience from '../components/experience.svelte';
 	import NewContact from '../components/newcontact.svelte';
 	import Photo from '../components/photogallery.svelte';
 	import Footer from '../components/footer.svelte';
@@ -45,8 +46,9 @@
 	<div class="cursor dark:bg-rose-400" />
 	<Nav />
 	<Hero />
-	<NewProjects />
+	<Experience />
 	<Photo />
+	<NewProjects />
 	<NewContact />
 	<Footer />
 </div>
