@@ -6,7 +6,7 @@
 	<ul class="font-stylish text-4xl">
 		<li data-aos="fade-up" class="group mt-20 hlink">
             <div class="flex justify-between">
-			<h1 id="section-1" class="group-hover:text-gray-500 transition ease-in-out duration-300 z-10">
+			<h1 class="group-hover:text-gray-500 transition ease-in-out duration-300 z-10">
 				Software Developer | <span class="text-gray-500">Federation UK</span>
 			</h1>
             <p class="text-3xl">(Sep 2022 - Present)</p>
@@ -24,7 +24,6 @@
 		<li data-aos="fade-up" class="group mt-20 hlink">
 			<div class="flex justify-between">
 				<h1
-					id="section-2"
 					class="group-hover:text-gray-500 transition ease-in-out duration-300 z-10"
 				>
 					IT Officer/Web Developer | <span class="text-gray-500">Congress</span>
@@ -44,7 +43,7 @@
 		<div class="divider bg-black dark:bg-white h-[1px] opacity-20" />
 		<li data-aos="fade-up" class="group mt-20 hlink">
             <div class="flex justify-between">
-			<h1 id="section-4" class="group-hover:text-gray-500 transition ease-in-out duration-300 z-10">
+			<h1 class="group-hover:text-gray-500 transition ease-in-out duration-300 z-10">
 				Language Specialist | <span class="text-gray-500">WeLocalize</span>
 			</h1>
             <p class="text-3xl">(Dec 2021 - May 2022)</p>
